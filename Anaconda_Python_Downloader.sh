@@ -26,7 +26,7 @@ wget https://repo.continuum.io/archive/Anaconda$ANACONDA_VERSION-Linux-x86_64.sh
 echo "checking the sha256 checksum"
 sha256sum $LOCAL/Anaconda$ANACONDA_VERSION-Linux-x86_64.sh
 echo "sourcing Anaconda$ANACONDA_VERSION-Linux-x86_64 install script"
-bash ~$LOCAL/Anaconda$ANACONDA_VERSION-Linux-x86_64.sh
+bash $LOCAL/Anaconda$ANACONDA_VERSION-Linux-x86_64.sh
 fi
 
 
