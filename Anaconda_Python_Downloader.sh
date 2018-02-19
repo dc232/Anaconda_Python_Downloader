@@ -20,6 +20,7 @@ sleep 1
 bash $LOCAL/Anaconda$ANACONDA_VERSION-Linux-x86_64.sh
 echo "Backing up bashrc and Setting up Anacona Path so that the binary anaconda3 is executable via bashrc"
 sleep 1
+cp ~./bashrc ~./bashrc1 
 echo export PATH=$ANACONDA_PATH >> ~/.bashrc
 echo "Sourcing content from bashrc"
 sleep 1
